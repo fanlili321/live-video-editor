@@ -1,0 +1,4 @@
+interface:
+  display_name: "直播切片视频剪辑"
+  short_description: "按已确认脚本生成横竖版字幕、封面和 PPT 成片"
+  default_prompt: "请使用 $live-video-editor 按已确认的切片脚本完成文本定稿、字幕复核和横竖版成片。"
