@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 548,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B10:B10",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "有朋友说呢，想要做个养老金组合，退休之后收股息，本金不动，有没有可能？这个完全有可能，这个就是红利指数基金的投资方式。你在低估的时候买入红利指数基金，长期持有不动，每年收取基金分红。这个策略其实有很多投资者都在做这种方式的，这也就是咱们红利指数基金投资指南封面上的这句话，低估买入，持股收息。这种策略呢，它有几个前提的条件啊，在红利低估，股息率高的时候买入，比如说你是股息率4%的时候买入，你之后长期拿分红，它的起点就差不多在4%上下。如果你在5%的股息的时候买入，那它长期的分红的起点可能就在5%上下。所以咱们还是要在低估买的啊，你低估的时候买，你的股息率才会高一些。第二呢，是你要挑那种有定期分红的红利指数基金。比如说呢，像。国内呢，对于基金分红并没有强制要求，所以有一些基金呢，它就没分红，没分红也没丢失啊，它是直接归入到了基金净值当中。但是如果你希望长期持有拿分红，那最好还是选有定期分红的红利指数基金，这个咱们之前也介绍过，比如说像一些中证红利指数，指数基金，红利低波动，沪港深红利低波动，这些呢都是有定期的分红条款的"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B10:B10",
+        "row_indices": [
+          10
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 26,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.92",
+      "message": "lark-cli 1.0.92 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}

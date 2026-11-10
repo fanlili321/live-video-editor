@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 766,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B7:B7",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "其实散户买 REITs 现在还不多，主要是保险机构买的多。所以 REITs 在过去几年它的规模增的很快，从诞生到现在已经有 2000 多亿的一个规模了，这个增速还是非常夸张的。其实主要的买方就是保险机构，保险想要给客户一年 2 到3，它不能只配债券，债券才1.7。剩下的那块呢，现金流就只能靠红利的股息或者 REITs 的现金流来了。所以你会发现这两头都有需求，基础设施的开发商，他希望能提前收回本金。保险机构呢，又希望，哎，我能够拿到现金流。基金公司呢，作为一个中间商，把这两者给撮合起来了。所以这是为什么在房住不炒的背景下， REITs 出现了大幅，品种的数量和规模大幅增长的一个原因。当然在具体投资上呢，这个 REITs 其实它里面有一些资产呢，这几年受到房地产熊市的影响，比如说写字楼。房地产熊市的时候，写字楼其实也是下跌的。所以也不是说闭着眼睛买 REITs 就能赚钱，它只是让你投资房地产类资产的门槛降低了。你以前买个写字楼，你可能需要几十万、上百万，买一个写字楼，出租收租，还得自己操心。那你现在呢，可以通过基金买到一个主要投资写字楼方向的 REITs 基金。你看好产业园区，你买一个产业园区的REITs，你看好这种。这个人才出租房，你看好这种出租房，你买一个出租房方向的REITs，它只是让你原本门槛比较高的投资的标的的门槛，给你降到了几十块钱、上百块钱的基金的投资门槛。但它不改变资产它本来的盈利模式哈，它的盈利模式仍然是一年年的收租金。所以这个是 REITs 的一个特点。但 REITs 的基金的话，现在的指数基金呢，刚刚成立，大家也不用太着急"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B7:B7",
+        "row_indices": [
+          7
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 31,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.94",
+      "message": "lark-cli 1.0.94 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}

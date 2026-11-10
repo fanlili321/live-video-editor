@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 561,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B4:B4",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "那这个负债该怎么去做管理呢？整个家庭会有一个家庭整体的负债率，这个负债率呢需要在家庭资产的 50% 以内，这样的一个负债率。比如说你的家庭所有的资产，你盘点之后发现，哎，家庭所有的资产呢有 200 万，那你的负债呢需要控制在 200 万的一半以内。这个一半呢，是个极限了啊，不是说这个算出来一半就刚好到一半。一半是一个非常非常极限的一个数字了。这是一个统计的方法。第二个维度呢，是关于月供，月供占你的月新增收入的比例，这个比例呢控制在 50% 以内。其实以前的时候啊，这两个规则在银行的信贷部门的内部是有的，螺丝钉以前在银行工作，其实当时对于很多的客户计算要不要给他放贷款，就会看这两个相应的指标，这也是两个非常重要的指标。在上周的时候，有的朋友关注到了国家推出了新的房地产的一些政策。里边呢说到，银行的贷款从 30 年可以延到 40 年。里边还有一条小字，月供占客户的收入，月收入的比例放宽到 60% 了，这个稍微的放松了一些，以前的时候就是50%，现在放宽到了60%。但是在这里呢，螺丝钉还是要提醒大家，月供占新增收入的比例还是要控在 50% 以内。"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B4:B4",
+        "row_indices": [
+          4
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 18,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.94",
+      "message": "lark-cli 1.0.94 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}

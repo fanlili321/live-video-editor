@@ -7,7 +7,7 @@
     python3 covers.py --config <期次配置.json> --folder <token>   # 指定文件夹（总目录或当期子目录都行）
 
 封面**不由本管线排版**：设计侧按条出成品图（标题已经印在图上），传到飞书
-用户指定的飞书封面总目录下的「<期> 期」子文件夹，命名是 `<标题> 16-9.png`（横版）、`<标题> 9-16.png`（竖版）。
+「02-新版视频封面」（`SnrQfpGkjlj323dcN7ccH1lSnbg`）下的「<期> 期」子文件夹，命名是 `<标题> 16-9.png`（横版）、`<标题> 9-16.png`（竖版）。
 本脚本按标题把它们对到脚本表行号上，下载成 `<root>/封面/<行号>-横版.png`、`-竖版.png`，
 尺寸不对就放大到 1920×1080 / 1080×1920，最后把 `封面来源=外部` 写回期次配置。
 渲染时 `batch.py` 直接取用，不再排标题。
@@ -29,7 +29,7 @@ def norm(t):
     return re.sub(r'[^一-鿿A-Za-z0-9]', '', t)
 
 
-COVER_ROOT = None
+COVER_ROOT = 'SnrQfpGkjlj323dcN7ccH1lSnbg'      # 飞书「02-新版视频封面」，按期分子文件夹
 
 
 def listdir(folder):
@@ -76,8 +76,6 @@ def main():
     cfg = json.load(open(cfgp, encoding='utf-8'))
     folder = a[a.index('--folder')+1] if '--folder' in a else cfg.get('封面飞书目录')
     if not folder:
-        if not COVER_ROOT:
-            raise SystemExit('请通过 --folder 或期次配置中的「封面飞书目录」提供封面目录 token')
         f = episode_folder(COVER_ROOT, cfg['episode'])
         folder = f['token']
         print('本期封面文件夹：%s' % f['name'])

@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 446,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B11:B11",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "有朋友问沪港深红利低波收益比一般的红利低波高吗？从收益上面呢，沪港深红利低波，其实跟中证红利低波这些品种相关性也很强，它就是加了一部分港股，增加一部分港股红利之后呢，理论上长期回报会再略高一点点，因为选股的范围啊，挑选到一些高股息的品种，它会有一些折溢价套利的一种方式。因为有一些公司呢，会同时在A股和港股上市的，他们的股息率都挺高，有的时候可能A股的股息高，有的时候港股的股息高。所以像沪港深红利低波，它可以在两个市场之间去比较一下，选择股息分红更合适的，所以它一定程度上可以增厚一点回报。沪港深三个市场的红利低波，它是有一定的增厚收益的一种方法。但这个差的也不是太多，而且加了港股红利之后呢，波动风险也会变大一点点。所以综合起来看，差不了太多啊，所以这个投资者就看自己的偏好了。加了一点港股红利的话，波动风险会变大一些。"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B11:B11",
+        "row_indices": [
+          11
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 11,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}

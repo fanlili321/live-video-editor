@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 457,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B13:B13",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "红利的基本面突然变坏怎么应付？基本面变坏怎么应付？红利呢，它是属于一种，基本面变化速度很慢的品种，因为它背后的公司呢，都已经是高度成熟的了。像银行，水电站、高速公路、运营商这些，确实啊，这些行业也有可能会出现基本面恶化的情况，但是它的变化是缓慢且连续的，是一种缓慢的变化。你很难说，一些很成熟的各个行业的这些龙头公司，突然在某一个时间段里，一下子基本面全部恶化，这个是非常非常难的，历史上也很少出现这样的情况。只有在 20 年年初疫情的那段时间出现了，也就是像疫情这种。同时影响到整个社会，各行各业，各个国家，这种非常严重的全球性的情况，让红利指数在当年出现了盈利下滑。除此之外， 22 年、 23 年一直到现在，每年的红利的盈利增长相对比较稳定。所以未来不排除说遇到那种全球性的情况，但是那种情况出现的时候，红利往往也会出现一些低估买入的机会。"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B13:B13",
+        "row_indices": [
+          13
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 11,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.95",
+      "message": "lark-cli 1.0.95 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}
