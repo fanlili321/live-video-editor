@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 678,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B14:B14",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "当然这个牛熊市呢，大家也不用把它看的特别的这个重啊，因为A股的牛熊市往往是结构性的，所以大家发现七八月份有个现象，就是之前到高估的成长风格大跌。一度跌了二三十个点，最近反弹了一些。6月份下跌的红利啊、价值啊，这样的一些指数，七八月份又上涨了9个点、10个点左右。所以如果A股真的进入到了熊市，它也不是所有的品种都下跌，里面可能有一些像红利啊、红利低波，包括有一些价值风格的一些品种，哎，它们在牛市的时候没怎么涨，说不定呢还能走出一些独立行情。再比如说像有一些朋友关注的，像这个消费，消费的话呢，在七八月份成长风格大跌的时候，它也自己上涨了一些。所以在投资的时候呢，大家也不用特别的把牛熊市看得太重啊。A股的牛熊市它不是那种，牛市大家一起暴涨，熊市大家一起下跌啊，它过去10年都不是这样的。A股的牛熊市往往都是结构性的，你像上一轮牛市领涨的白酒、消费、新能源，这些是上一轮牛市领涨的，这轮牛市呢领涨的就换成了芯片、存储、AI，这些方向。然后有一些没怎么涨的品种，它在熊市的时候可能也不怎么跌，可能会走出一些独立行情。所以核心呢，就是牛市熊市呢，大家知道有这个事情。它会影响咱们在投资的时候，整体的投资的一些，比如说像这个短期的一些收益啊，或者买入的一些成本啊，这个确实会受到牛熊市的影响。但是大家也不用特别担心啊，如果进入到熊市的时候，有一些估值低的品种，说不定还走出一些逆势的上涨的行情。"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B14:B14",
+        "row_indices": [
+          14
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 26,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.92",
+      "message": "lark-cli 1.0.92 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 571,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B7:B7",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "有朋友问，投，长期投资，买了沪深300，中证500、中证1000了。还要不要再加上中证2000、北证50呢？这也是个很好的问题哈。如果你把300、500、1000、2000这些都买了，你最后拿到的是个啥呢？拿到的是中证全指。中证全指其实就是把这些指数都配了。有300、500、1000、2000、北证50，这些都在中证全指里边了。所以呢，大家在投资的时候呢，如果你想把大、中、小、微不同的指数全部都买下来，你也可以考虑中证全指这样的指数基金，那就买一个就行了，比较省心。全指的指数基金呢，也是这几年刚出现的。在去年的上半年首次出现了中证全指的指数基金。全指呢，现在市场上可选的品种也比较多了。在，只不过它还没有回到低估。等到回到低估的时候呢，也可以考虑直接投中证全指就可以了，这还省心一点啊。当然你自己如果想手动的搭配也可以。你像今年这个300、500、1000、2000，像中证1000、中证2000，前段时间是涨到高估的。如果你分开投的话，你可以对里边的某一些单个的指数基金做止盈的动作，这会方便一些。如果想省心的话呢，那你就直接买全指，这样的话就不用买一大堆的基金了。"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B7:B7",
+        "row_indices": [
+          7
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 26,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.92",
+      "message": "lark-cli 1.0.92 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}

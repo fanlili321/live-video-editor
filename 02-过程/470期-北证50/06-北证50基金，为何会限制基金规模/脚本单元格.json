@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 664,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B6:B6",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "北证50有场内指数基金吗？很难很难有场内的指数基金，但未来有可能，因为像大家会发现啊，北证50这种流动性不是特别好，它的总市值规模也不太大。市场比较担心的呢，就是指数基金规模太大了，会不会让比如说遇到赎回的时候，会不会有一些流动性的风险？咱们举个例子啊，北证50，50个股票，每个股票50亿，加起来就是2500亿。假设指数基金呢，占了里边的500亿的规模了，遇到市场下跌的时候，散户要赎回，基金经理接到赎回，他就要卖股票。一下子短期里卖掉100亿的股票，对于2500亿的北证50的盘子，影响还是非常大的。可能那段时间就下跌卖不出去啊。所以在投资的时候，流动性比较弱的这样的板块，为什么会对它的指数基金规模做上限？一个指数基金最多5个亿、15个亿，为什么做这么一个限制？主要还是流动性的风险。所以在投资的时候呢，北证50，它现在的总的市值规模不太大，所以它不太容易出现场内的指数基金，因为场内的话大家还得买卖交易它。那如果说流动性受限的场内基金，可能会出现非常高的折溢价风险。代表就是美股，大家会发现美股的基金限购，场内的美股ETF就出现了很高的溢价。那北证50它也限购啊，它如果出来场内基金，估计也会有很长一段时间场内是有溢价风险的。所以可能短期里不太容易出现场内的品种，但是未来是有可能的，因为像科创板和创业板，它也经历过一开始市值规模比较小这样的一个过程。"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B6:B6",
+        "row_indices": [
+          6
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 26,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.92",
+      "message": "lark-cli 1.0.92 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}

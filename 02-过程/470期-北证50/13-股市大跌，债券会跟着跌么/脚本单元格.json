@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 596,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B13:B13",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "有朋友问呢，现在有一大笔资金在90天组合里边，如果中证全指从现在的5900多点下跌到5000点上下，那90天组合会不会受到影响呢？其实90天组合里边没有股票啊，90天组合是纯债，所以它跟股票的涨跌没有那么强的相关性。90天的话，大家看一下它的历史的涨跌走势啊，基本上就是。每个月比较小幅的略微的上涨，这样一点一点一点连着好多个月连续上涨，走出一个这样的走势。这是因为90天组合它的债券的波动非常小，成立以来它的最大回撤是0.26。它的债券的利息呢，现在在个1.6、1.7，大概这样的一个水平，因为人民币的债券现在的收益率也不太高，所以它的绝大多数的收益来源就是来自于每年的收取的利息。这个利息呢，每个月收到，收到之后就放到基金净值里边，所以大家看到它这个净值呢，就小幅的逐渐的往上涨。如果遇到股市大跌，对于90天这种债券的组合，反而还有利。因为在股市暴涨暴跌的时候，跟债券呢，是有一点反向的关系的。如果股市暴跌，债券那段时间往往就会表现好一点，因为有一些投资者会追涨杀跌嘛，一大跌的时候，哎，就把股票卖掉，出来的钱进到债券里，会推动债券上涨。所以如果真的遇到股市暴跌，对于90天这种债券的组合，反而是有利的，也不用特别担心。"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B13:B13",
+        "row_indices": [
+          13
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 26,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.92",
+      "message": "lark-cli 1.0.92 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}

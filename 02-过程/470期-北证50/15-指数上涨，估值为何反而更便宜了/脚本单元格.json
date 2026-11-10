@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 494,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "B15:B15",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#000000",
+                "font_size": 13,
+                "vertical_alignment": "top"
+              },
+              "value": "有朋友问这个红利指数基金接近历史高位吗？怎么还是在低估？其实红利的话呢，主要是看它的估值啊，红利的话它是个慢牛走势，22年、23年、24年、25年，红利每年都是创新高的，它是慢慢的这样上涨。你要关注的不是它的股价上涨，它股价长期是往上走的，你要关注的是。它的股价涨幅和它的盈利增长之间的关系。比如说当年红利指数盈利增长了6%，指数呢，加上4个点的股息，指数呢涨了5个点，它股价的上涨没有赶上它盈利的增长幅度啊，这样涨了一年之后，它估值还变低了一些。所以大家不要用一个静态的视角去看待指数，比如说这个指数当年涨了3个点，但是上市公司的盈利涨了6个点，一年以后它的估值还变低了。所以投资的时候大家有这样的一个意识啊，就是看估值，不要看价格，价格的话呢，长期它是往上走的。但是中间呢，如果某一段时间，哎，它股价下跌，或者股价上涨速度低于盈利的增长速度，那它估值呢反而会降低。所以这个是投资的时候，要养成这种看估值的一个习惯啊。"
+            }
+          ]
+        ],
+        "col_indices": [
+          "B"
+        ],
+        "range": "B15:B15",
+        "row_indices": [
+          15
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 1,
+    "revision": 26,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.61",
+      "latest": "1.0.92",
+      "message": "lark-cli 1.0.92 available, current 1.0.61, run: lark-cli update"
+    }
+  }
+}
